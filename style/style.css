@@ -1,0 +1,174 @@
+*{
+    box-sizing:border-box;
+}
+
+.box{
+    width: 100px;
+    height:100px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 100px 50px 5px 50px;
+    font-family: 'Cabin', sans-serif;
+
+    
+
+}
+
+.ver-cv{
+    order:1;
+    font-style: bold;
+
+
+}
+
+.logo-index{
+    order:2;
+    justify-content: center;
+
+}
+
+.plastico-digital{
+    order:3;
+    font-style: bold;
+
+
+}
+
+
+.image-last-project{
+ 
+  object-fit: cover;
+  
+}
+
+.last-work{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    padding: 80px 50px 20px 100px;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+
+}
+
+
+
+.soy-pablo-lógar{
+  font-family: 'Cabin', sans-serif;
+  justify-content: center;
+  padding: 0px 60px 99px 50px;
+
+
+
+
+}
+.image-bio{
+padding-left: 80px;}
+
+.info-bio{
+    padding-right: 120px;
+    align-items: flex-end;
+    margin-right: 120px;
+}
+
+
+
+}
+.ux-ui-container{
+    padding-left:100px;
+    justify-content: space-around;
+}
+
+.tinder-info{
+width: 50%;
+padding-left:40px;
+
+}
+
+.tinder-image{
+width: 50%;
+}
+
+a:hover{
+    color:grey;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+
+
+.plastico-digital{
+    align-self: right;
+}
+
+.tuyo{
+    
+        width: 100%;
+        height: auto
+}
+
+
+.mas-proyectos{
+    font-family: 'Cabin', sans-serif;
+
+}
+
+@keyframes .mas-proyectos {
+    from {background-color: black;}
+    to {background-color: rgb(207, 207, 197);}
+}
+
+.mas-proyectos {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(215,255,241,100%);
+   transition: 20s;
+
+  }
+
+  @media only screen and (max-width: 415px){
+      h1,h2 {
+          font-size:20px;
+          line-height: 28px;
+          width: 100%;
+      
+  }
+
+  .desktop-content{
+      display: none;
+
+  }
+
+  .mobile-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Cabin', sans-serif;
+      
+
+      }
+
+
+  }
+   
+
+
+
+
+
+
+
+
